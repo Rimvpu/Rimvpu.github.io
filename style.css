@@ -1,0 +1,358 @@
+header{
+	background-color: #E1EAE7;
+}
+
+main {
+	background-color: white;
+}
+
+body {
+	background-color: #fff;
+	width: 100%;
+	font-size: 14px;
+	color: #545454;
+	margin: 0px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+	max-width: 1000px;
+}
+
+.row {
+	margin: 2em;
+}
+
+#top {
+    overflow: hidden;
+    background: #e0ebe8;
+	margin-bottom: 0px;
+}
+
+#hello {
+    color: #545454;
+    background-color: #fff;
+}
+
+/* Work page bg-color */
+
+#work1 {
+    overflow: hidden;
+    background: #d7c1c5;
+	margin-bottom: 0px;
+}
+
+#work2 {
+    overflow: hidden;
+    background: #ffe7d0;
+	margin-bottom: 0px;
+}
+
+/* Meniu */
+
+nav ul {
+	position: webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E1EAE7;
+}
+
+	nav li {
+		float: left;
+	}
+
+		nav li a {
+			display: block;
+			color: #3E9C84;
+			text-align: center;
+			padding: 14px 16px;
+			font-family: 'Open Sans Condensed', sans-serif;
+			text-decoration: none;
+			font-weight:;
+			font-size: 24px;
+			font-style: normal;
+			letter-spacing: normal;
+			text-transform: none;
+		}
+
+			nav li a:hover{
+				background-color: #e0ebe8;
+				color: #000000;
+			}
+			
+
+/* Main page headlines */
+
+#main-top h1{
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #3E9C84;
+	font-size: 3em;
+	font-style: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	background-color: #E1EAE7;
+	margin-top: 3em;
+	margin-bottom: 0px;
+}
+
+#main-top h2 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #3E9C84;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	font-size: 2em;
+	background-color: #E1EAE7;
+	margin-bottom: 4em;
+	margin-top: 0px;
+}
+
+/* Headlines and paragraphs */
+
+h1 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #3E9C84;
+	font-size: 3em;
+	font-style: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	margin: 0px;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #45b29a;
+	font-size: 2em;
+	font-style: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #256152;
+	font-size: 2em;
+	font-style: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+p {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	font-size: 1.5em;
+	margin: 0px;
+}
+
+p1 {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	font-size: 1.5em;
+	margin-top: 100px;
+}
+
+/* Images */
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+  max-width: 170px;
+  margin-bottom: 1em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 40px;
+    border: 0px solid #45b29a;
+    border-radius: 3px;
+    background: #45b29a;
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	font-size: 1.5em;
+    color: #35896b;
+    text-decoration: none;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	margin-top: 2em;
+	text-transform: uppercase
+}
+	.button:hover {
+		border: 0px solid #E1EAE7;
+		background: #E1EAE7;
+		color: #35896b;
+		text-decoration: none;
+		text-transform: uppercase
+	}
+
+.button2 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 40px;
+    border: 0px solid #323232;
+    border-radius: 3px;
+    background: #323232;
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	font-size: 1.5em;
+    color: #ffa247;
+    text-decoration: none;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	margin-top: 2em;
+	text-transform: uppercase
+}
+	.button2:hover {
+		border: 0px solid #676767;
+		background: #676767;
+		color: #ffa247;
+		text-decoration: none;
+		text-transform: uppercase
+	}
+	
+	.button3 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 40px;
+    border: 0px solid #4e3b99;
+    border-radius: 3px;
+    background: #4e3b99;
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	font-size: 1.5em;
+    color: #d0b5ff;
+    text-decoration: none;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	margin-top: 2em;
+	text-transform: uppercase
+}
+	.button3:hover {
+		border: 0px solid #957ebd;
+		background: #957ebd;
+		color: #d0b5ff;
+		text-decoration: none;
+		text-transform: uppercase
+	}
+
+/* Contact form*/
+
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */  
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #45b29a;
+	font-size: 1em;
+	font-style: normal;
+	letter-spacing: normal;
+	text-transform: none;
+}
+
+label {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #45b29a;
+	font-size: 2em;
+	font-style: normal;
+	letter-spacing: normal;
+	text-transform: none;
+}
+/* Contact form button*/
+
+input[type=submit] {
+	background-color: #45b29a;
+	color: 35896b;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+
+
+input[type=submit]:hover {
+	background-color: #E1EAE7;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #E1EAE7;
+	color: #3E9C84;
+	margin-top: 3em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	font-size: 1em;
+}
+
