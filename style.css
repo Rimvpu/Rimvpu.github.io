@@ -64,28 +64,28 @@ nav ul {
 	background-color: #E1EAE7;
 }
 
-	nav li {
-		float: left;
-	}
+nav li {
+	float: left;
+}
 
-		nav li a {
-			display: block;
-			color: #3E9C84;
-			text-align: center;
-			padding: 14px 16px;
-			font-family: 'Open Sans Condensed', sans-serif;
-			text-decoration: none;
-			font-weight:;
-			font-size: 24px;
-			font-style: normal;
-			letter-spacing: normal;
-			text-transform: none;
-		}
+nav li a {
+	display: block;
+	color: #3E9C84;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none;
+	font-weight:;
+	font-size: 24px;
+	font-style: normal;
+	letter-spacing: normal;
+	text-transform: none;
+}
 
-			nav li a:hover{
-				background-color: #e0ebe8;
-				color: #000000;
-			}
+nav li a:hover{
+	background-color: #e0ebe8;
+	color: #000000;
+}
 			
 
 /* Main page headlines */
@@ -176,44 +176,44 @@ p1 {
 /* Images */
 
 .avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 17%;
-  max-width: 170px;
-  margin-bottom: 1em;
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 17%;
+	max-width: 170px;
+	margin-bottom: 1em;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1000px;
 }
 
 /* Buttons */
 
 .button {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 8px 40px;
-    border: 0px solid #45b29a;
-    border-radius: 3px;
-    background: #45b29a;
-    font-family: 'Open Sans Condensed', sans-serif;
+    	display: inline-block;
+    	text-align: center;
+    	vertical-align: middle;
+    	padding: 8px 40px;
+    	border: 0px solid #45b29a;
+    	border-radius: 3px;
+    	background: #45b29a;
+    	font-family: 'Open Sans Condensed', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: normal;
 	font-size: 1.5em;
-    color: #35896b;
-    text-decoration: none;
+    	color: #35896b;
+    	text-decoration: none;
 	position: relative;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    	top: 50%;
+    	left: 50%;
+    	margin-right: -50%;
+    	transform: translate(-50%, -50%);
 	margin-top: 2em;
 	text-transform: uppercase
 }
@@ -226,25 +226,25 @@ p1 {
 	}
 
 .button2 {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 8px 40px;
-    border: 0px solid #323232;
-    border-radius: 3px;
-    background: #323232;
-    font-family: 'Open Sans Condensed', sans-serif;
+    	display: inline-block;
+    	text-align: center;
+    	vertical-align: middle;
+    	padding: 8px 40px;
+    	border: 0px solid #323232;
+    	border-radius: 3px;
+    	background: #323232;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: normal;
 	font-size: 1.5em;
-    color: #ffa247;
-    text-decoration: none;
+    	color: #ffa247;
+    	text-decoration: none;
 	position: relative;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    	top: 50%;
+    	left: 50%;
+    	margin-right: -50%;
+    	transform: translate(-50%, -50%);
 	margin-top: 2em;
 	text-transform: uppercase
 }
@@ -256,26 +256,26 @@ p1 {
 		text-transform: uppercase
 	}
 	
-	.button3 {
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    padding: 8px 40px;
-    border: 0px solid #4e3b99;
-    border-radius: 3px;
-    background: #4e3b99;
-    font-family: 'Open Sans Condensed', sans-serif;
+.button3 {
+    	display: inline-block;
+    	text-align: center;
+    	vertical-align: middle;
+    	padding: 8px 40px;
+    	border: 0px solid #4e3b99;
+    	border-radius: 3px;
+    	background: #4e3b99;
+    	font-family: 'Open Sans Condensed', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: normal;
 	font-size: 1.5em;
-    color: #d0b5ff;
-    text-decoration: none;
+    	color: #d0b5ff;
+    	text-decoration: none;
 	position: relative;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    	top: 50%;
+    	left: 50%;
+    	margin-right: -50%;
+    	transform: translate(-50%, -50%);
 	margin-top: 2em;
 	text-transform: uppercase
 }
